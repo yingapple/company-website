@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElephantFly — Crafting Digital Excellence</title>
+    <meta name="description" content="We create thoughtfully designed applications that elevate human experiences through artificial intelligence.">
+    <meta name="keywords" content="AI, artificial intelligence, premium apps, digital innovation, ElephantFly">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="alternate icon" href="/assets/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="ElephantFly — Crafting Digital Excellence">
+    <meta property="og:description" content="Thoughtfully designed applications powered by artificial intelligence">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elephantfly.com">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navigation" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo-link" aria-label="ElephantFly home">
+                <div class="logo">
+                    <span class="logo-text">ElephantFly</span>
+                </div>
+            </a>
+            
+            <div class="nav-menu">
+                <a href="#philosophy" class="nav-link">Philosophy</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link nav-link-cta">Connect</a>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <!-- Animated Background -->
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="particle-field" id="particleField"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-headline">
+                    <span class="headline-line">
+                        <span class="text-animate">Crafting</span> 
+                        <span class="text-animate">digital</span>
+                    </span>
+                    <span class="headline-line">
+                        <span class="text-animate">experiences</span> 
+                        <span class="text-animate">with</span>
+                    </span>
+                    <span class="headline-line accent">
+                        <span class="text-animate">purpose</span> 
+                        <span class="text-animate">&</span> 
+                        <span class="text-animate">precision</span>
+                    </span>
+                </h1>
+                <p class="hero-description">
+                    We believe technology should enhance life's moments, not complicate them. 
+                    Our applications are thoughtfully designed to bring clarity, efficiency, and delight to everyday interactions.
+                </p>
+                <div class="hero-actions">
+                    <a href="#portfolio" class="button button-primary">
+                        <span>Explore Our Work</span>
+                        <svg class="button-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7 4L13 10L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Floating Decoration -->
+            <div class="hero-decoration">
+                <svg class="floating-shape" width="100" height="100" viewBox="0 0 100 100">
+                    <defs>
+                        <linearGradient id="shapeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.8" />
+                            <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.8" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M50,10 L90,30 L90,70 L50,90 L10,70 L10,30 Z" fill="url(#shapeGradient)" opacity="0.1"/>
+                    <path d="M50,10 L90,30 L90,70 L50,90 L10,70 L10,30 Z" fill="none" stroke="url(#shapeGradient)" stroke-width="1" opacity="0.3"/>
+                </svg>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll to explore</span>
+            <div class="scroll-arrow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 5L12 19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy -->
+    <section class="philosophy" id="philosophy">
+        <div class="container">
+            <div class="section-intro">
+                <h2 class="section-title">Our Philosophy</h2>
+                <p class="section-subtitle">Excellence is not an accident. It's a choice we make every day.</p>
+            </div>
+            
+            <div class="philosophy-grid">
+                <div class="philosophy-card">
+                    <div class="philosophy-number">01</div>
+                    <h3 class="philosophy-title">Purpose-Driven Creation</h3>
+                    <p class="philosophy-text">
+                        We identify genuine needs and craft elegant solutions. 
+                        Every product exists to solve real problems for real people.
+                    </p>
+                </div>
+                
+                <div class="philosophy-card">
+                    <div class="philosophy-number">02</div>
+                    <h3 class="philosophy-title">AI-Powered Velocity</h3>
+                    <p class="philosophy-text">
+                        Artificial intelligence enables rapid iteration and swift delivery. 
+                        We move fast on execution while remaining thoughtful about direction.
+                    </p>
+                </div>
+                
+                <div class="philosophy-card">
+                    <div class="philosophy-number">03</div>
+                    <h3 class="philosophy-title">Persistent Excellence</h3>
+                    <p class="philosophy-text">
+                        Quick actions, patient strategy. We combine relentless persistence 
+                        with strategic patience to build lasting value.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-intro">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">A curated selection of our digital craftsmanship</p>
+            </div>
+            
+            <div class="portfolio-grid" id="portfolio-container">
+                <!-- Dynamically loaded from apps.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="about-title">Building the Future, Independently</h2>
+                    <p class="about-description">
+                        Established in August 2024, ElephantFly Technology represents a new paradigm in 
+                        software development. Our founder, who previously secured over $10 million in 
+                        funding as CTO and delivered enterprise solutions to Fortune 500 companies, brings 
+                        deep technical expertise and proven execution capability.
+                    </p>
+                    <p class="about-description">
+                        Our vision is ambitious yet grounded: to build a unicorn company without venture capital. 
+                        We believe the best products emerge when you're accountable only to your users, not investors. 
+                        This independence allows us to move fast on execution while maintaining strategic patience—building 
+                        products that solve real problems, not chasing growth metrics.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-value">Aug 2024</span>
+                            <span class="stat-label">Founded</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">$10M+</span>
+                            <span class="stat-label">Previously Raised</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">Fortune 500</span>
+                            <span class="stat-label">Clients Served</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="contact-title">Let's Create Something Remarkable</h2>
+                <p class="contact-description">
+                    We're selective about our partnerships and projects. 
+                    If you share our commitment to excellence, we'd love to hear from you.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:hello@elephantfly.tech" class="contact-link primary">
+                        <span>hello@elephantfly.tech</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M11 3L18 10L11 17M18 10H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">ElephantFly</div>
+                    <p class="footer-tagline">Crafting Digital Excellence</p>
+                </div>
+                
+                <div class="footer-sections">
+                    <div class="footer-section">
+                        <h4 class="footer-title">Company</h4>
+                        <div class="footer-links">
+                            <a href="/about">About Us</a>
+                            <a href="/philosophy">Philosophy</a>
+                            <a href="/careers">Careers</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">Products</h4>
+                        <div class="footer-links" id="footer-apps">
+                            <!-- Dynamically loaded -->
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">Legal</h4>
+                        <div class="footer-links">
+                            <a href="/policies/privacy">Privacy Policy</a>
+                            <a href="/policies/terms">Terms of Service</a>
+                            <a href="/policies/cookies">Cookie Policy</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">Connect</h4>
+                        <div class="footer-links">
+                            <a href="mailto:hello@elephantfly.tech">hello@elephantfly.tech</a>
+                            <a href="mailto:partnerships@elephantfly.tech">Partnerships</a>
+                            <a href="mailto:support@elephantfly.tech">Support</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 ElephantFly Technology Co., Ltd. All rights reserved.</p>
+                <p class="footer-note">Designed with intention. Built with precision.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/hero-effects.js"></script>
+</body>
+</html>

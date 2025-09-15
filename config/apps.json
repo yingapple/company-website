@@ -1,0 +1,108 @@
+{
+  "apps": [
+    {
+      "id": "godsaid",
+      "name": "GodSaid",
+      "tagline": "Where wisdom meets serenity",
+      "description": "An AI-powered spiritual companion that brings ancient wisdom to modern life through thoughtful conversations and daily guidance.",
+      "category": "Lifestyle & Wellness",
+      "status": "launched",
+      "platforms": ["iOS", "Android"],
+      "icon": "",
+      "hero": "/assets/apps/godsaid/hero.png",
+      "primaryColor": "#6B5B95",
+      "accentColor": "#88B0D3",
+      "features": [
+        "AI-powered spiritual guidance",
+        "Daily wisdom and meditation",
+        "Personalized journey tracking",
+        "Multi-faith perspectives"
+      ],
+      "links": {
+        "appStore": "https://apps.apple.com/app/godsaid",
+        "playStore": "https://play.google.com/store/apps/details?id=com.godsaid"
+      },
+      "policies": {
+        "privacy": "/policies/godsaid/privacy",
+        "terms": "/policies/godsaid/terms",
+        "eula": "/policies/godsaid/eula"
+      }
+    },
+    {
+      "id": "invoicejp",
+      "name": "InvoiceJP",
+      "tagline": "Effortless invoicing for Japan",
+      "description": "Streamlined invoice management designed specifically for the Japanese market, supporting qualified invoice system compliance.",
+      "category": "Business & Finance",
+      "status": "beta",
+      "platforms": ["iOS", "Web"],
+      "icon": "",
+      "hero": "/assets/apps/invoicejp/hero.png",
+      "heroFit": "cover",
+      "heroPosition": "left center",
+      "primaryColor": "#1E3A8A",
+      "accentColor": "#DC2626",
+      "features": [
+        "Qualified invoice system ready",
+        "Multi-currency support",
+        "Real-time tax calculations",
+        "Cloud synchronization"
+      ],
+      "links": {
+        "appStore": "",
+        "playStore": "",
+        "website": ""
+      },
+      "policies": {
+        "privacy": "/policies/invoicejp/privacy",
+        "terms": "/policies/invoicejp/terms"
+      }
+    },
+    {
+      "id": "langcopilot",
+      "name": "LangCoPilot",
+      "tagline": "LLM insights and tools hub",
+      "description": "Sharing real-world LLM practices and tools—implementation-first, not theory.",
+      "category": "AI Knowledge & Tools",
+      "status": "launched",
+      "platforms": ["Web"],
+      "icon": "",
+      "hero": "/assets/apps/langcopilot/hero.png",
+      "primaryColor": "#0F766E",
+      "accentColor": "#14B8A6",
+      "features": [
+        "Practical LLM engineering guides",
+        "Curated AI tools directory",
+        "Production best practices and pitfalls",
+        "Case studies and evaluations"
+      ],
+      "links": {
+        "website": "https://langcopilot.com"
+      },
+      "policies": {
+        "privacy": "/policies/privacy",
+        "terms": "/policies/terms"
+      }
+    },
+    {
+      "id": "more-coming",
+      "name": "More in Development",
+      "tagline": "New products are on the way",
+      "description": "We’re actively crafting new AI‑powered experiences with the same attention to detail—stay tuned.",
+      "category": "Coming Soon",
+      "status": "coming-soon",
+      "platforms": ["iOS", "Android", "Web"],
+      "icon": "",
+      "hero": "",
+      "primaryColor": "#0A0E27",
+      "accentColor": "#2563EB",
+      "features": [
+        "Thoughtful, user‑centered design",
+        "AI that solves real problems",
+        "Fast, reliable performance"
+      ],
+      "links": {},
+      "policies": {}
+    }
+  ]
+}
