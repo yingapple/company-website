@@ -250,9 +250,24 @@ git push
 2. 在Vercel Domains设置中点击 "Refresh"
 3. 确保DNS记录正确
 
-### Q4：部署失败
+### Q4：部署失败 - "No Output Directory named 'public' found"
 
-**症状**：Vercel显示部署错误
+**症状**：Vercel显示找不到public目录错误
+
+**解决方案**：
+确保vercel.json包含以下配置：
+```json
+{
+  "version": 2,
+  "outputDirectory": ".",
+  ...
+}
+```
+这告诉Vercel输出目录是项目根目录，而不是默认的public目录。
+
+### Q5：其他部署错误
+
+**症状**：Vercel显示其他部署错误
 
 **解决方案**：
 1. 查看部署日志
