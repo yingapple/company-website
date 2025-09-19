@@ -193,9 +193,9 @@
 
 ## 📞 Support
 
-- **Technical Issues**: dev@elephantfly.tech
-- **Content Updates**: content@elephantfly.tech
-- **Urgent**: hello@elephantfly.tech
+- **Technical Issues**: support@eleflytech.com
+- **Content Updates**: support@eleflytech.com
+- **Urgent**: support@eleflytech.com
 
 ---
 

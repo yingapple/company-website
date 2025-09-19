@@ -132,4 +132,4 @@ git status
 
 💡 **提示**：首次部署通常10分钟内完成。如果超过30分钟仍有问题，请检查DNS设置。
 
-📧 需要帮助？联系 dev@elephantfly.tech
+📧 需要帮助？联系 support@eleflytech.com

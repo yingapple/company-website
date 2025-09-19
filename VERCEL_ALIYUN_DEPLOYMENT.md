@@ -331,8 +331,8 @@ zip -r backup-$(date +%Y%m%d).zip . -x "*.git*"
 - 电话：95187
 
 ### 项目维护
-- 技术问题：dev@elephantfly.tech
-- 紧急联系：hello@elephantfly.tech
+- 技术问题：support@eleflytech.com
+- 紧急联系：support@eleflytech.com
 
 ## 📝 部署检查清单
 

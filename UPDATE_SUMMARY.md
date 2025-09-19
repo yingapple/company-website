@@ -12,7 +12,7 @@
 - Changed from "EleFly" to **"ElephantFly Technology Co., Ltd."**
 - Removed all "Hangzhou" location references (per request)
 - Updated across all pages and documents
-- Email domains changed to `@elephantfly.tech`
+- Email domains changed to `@eleflytech.com`
 
 ### 3. ✅ **Founder Background & Company History**
 - **Founded**: August 2024

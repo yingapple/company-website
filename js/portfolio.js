@@ -127,9 +127,29 @@ async function loadFooterApps() {
         
         if (!container) return;
         
-        container.innerHTML = data.apps.map(app => 
-            `<a href="/apps/${app.id}">${app.name}</a>`
-        ).join('');
+        // Filter out coming-soon apps and create links
+        const activeApps = data.apps.filter(app => app.status !== 'coming-soon');
+        
+        container.innerHTML = activeApps.map(app => {
+            // For apps with external websites, link to them directly
+            if (app.links && app.links.website) {
+                return `<a href="${app.links.website}" target="_blank" rel="noopener">${app.name}</a>`;
+            }
+            // For apps without websites, create a clickable link that opens the modal
+            return `<a href="#" data-app-id="${app.id}" class="footer-app-link">${app.name}</a>`;
+        }).join('');
+        
+        // Add click handlers for modal links
+        container.querySelectorAll('.footer-app-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const appId = link.dataset.appId;
+                const app = data.apps.find(a => a.id === appId);
+                if (app) {
+                    openAppDetails(app);
+                }
+            });
+        });
         
     } catch (error) {
         console.error('Error loading footer apps:', error);
