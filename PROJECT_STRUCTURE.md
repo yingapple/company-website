@@ -1,4 +1,4 @@
-# ElephantFly Technology Website Structure
+# Elefly Technology Co., Ltd Website Structure
 
 ## 🏗️ Architecture Overview
 
@@ -182,4 +182,4 @@ When adding new applications:
 
 ---
 
-**ElephantFly Technology** - Crafting Digital Excellence with Purpose & Precision
+**Elefly Technology Co., Ltd** - Crafting Digital Excellence with Purpose & Precision

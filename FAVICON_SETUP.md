@@ -46,7 +46,7 @@ Use Figma, Sketch, or Adobe Illustrator to export the SVG at different sizes.
 ## 🎨 Current Design
 
 The favicon features:
-- Gradient from ElephantFly brand colors (blue to purple)
+- Gradient from Elefly brand colors (blue to purple)
 - Elegant "E" monogram in white
 - Rounded corners for modern app icon aesthetic
 - Scalable vector format for all sizes

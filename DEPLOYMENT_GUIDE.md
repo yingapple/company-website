@@ -1,4 +1,4 @@
-# Deployment Guide for ElephantFly Website
+# Deployment Guide for Elefly Technology Website
 
 ## 🚀 Quick Start
 

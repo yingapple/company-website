@@ -9,5 +9,5 @@
   <rect x="5" y="5" width="30" height="30" rx="6" fill="url(#logoGradient)"/>
   <text x="20" y="26" font-family="Georgia, serif" font-size="20" font-weight="600" fill="white" text-anchor="middle">E</text>
   <!-- Text -->
-  <text x="45" y="25" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="600" fill="#0A0E27">ElephantFly</text>
+  <text x="45" y="25" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="600" fill="#0A0E27">Elefly</text>
 </svg>

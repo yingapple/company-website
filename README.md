@@ -1,6 +1,6 @@
-# ElephantFly Technology Website
+# Elefly Technology Co., Ltd Website
 
-A modern, premium website for ElephantFly Technology - showcasing AI innovation and digital solutions.
+A modern, premium website for Elefly Technology Co., Ltd - showcasing AI innovation and digital solutions.
 
 ## 🚀 Features
 
@@ -168,4 +168,4 @@ For questions about this website template:
 
 ---
 
-**ElephantFly Technology** - Building the Future, Independently
+**Elefly Technology Co., Ltd** - Building the Future, Independently

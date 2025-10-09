@@ -309,7 +309,7 @@ class Router {
     
     updateMetaTags(title, description) {
         // Update title
-        document.title = title ? `${title} — ElephantFly` : 'ElephantFly — Crafting Digital Excellence';
+        document.title = title ? `${title} — Elefly Technology` : 'Elefly Technology — Crafting Digital Excellence';
         
         // Update description
         const metaDescription = document.querySelector('meta[name="description"]');
