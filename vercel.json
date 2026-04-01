@@ -67,6 +67,10 @@
       "destination": "/policies/cookies/index.html"
     },
     {
+      "source": "/policies/billing",
+      "destination": "/policies/billing/index.html"
+    },
+    {
       "source": "/apps/:app",
       "destination": "/apps/:app/index.html"
     }
@@ -80,6 +84,11 @@
     {
       "source": "/terms",
       "destination": "/policies/terms",
+      "permanent": true
+    },
+    {
+      "source": "/billing",
+      "destination": "/policies/billing",
       "permanent": true
     }
   ]
